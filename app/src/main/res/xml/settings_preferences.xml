@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference app:title="Profile"
+        app:key="profile"
+        android:summary="Name, About, Phone"
+        app:icon="@drawable/profile" />
+
+    <Preference app:title="Chats"
+        app:key="chats"
+        app:icon="@drawable/chats" />
+
+    <Preference app:key="notifications"
+        app:title="Notifications"
+        android:icon="@drawable/notifications" />
+
+</PreferenceScreen>

@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "319933494144",
-    "project_id": "chatsapp-256e0",
-    "storage_bucket": "chatsapp-256e0.appspot.com"
+    "project_number": "339779033965",
+    "firebase_url": "https://zipchat-8eca2-default-rtdb.firebaseio.com",
+    "project_id": "zipchat-8eca2",
+    "storage_bucket": "zipchat-8eca2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:319933494144:android:95416a5705e1abe455c765",
+        "mobilesdk_app_id": "1:339779033965:android:3d35fccb0d1424983bd864",
         "android_client_info": {
-          "package_name": "com.mianasad.chatsapp"
+          "package_name": "com.skc.ZipChat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "319933494144-7r6vm4qv5j975s66qq2j9ptgjfl6jrai.apps.googleusercontent.com",
+          "client_id": "339779033965-rsks7jlj6ckod0r8tsc8fj24qlmn7np2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skc.ZipChat",
+            "certificate_hash": "09f604c3fe72d43f3e449a6d0af2e9310a2d1916"
+          }
+        },
+        {
+          "client_id": "339779033965-p0qhf0ig864r933njpv2uo9g0r79gprn.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDncUXq0RIf1GAmV-Re7xDG2aZx5jHZUAQ"
+          "current_key": "AIzaSyC1IYW81dOh6sFwOdcL2fCifuFfgKq6mMU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "319933494144-7r6vm4qv5j975s66qq2j9ptgjfl6jrai.apps.googleusercontent.com",
+              "client_id": "339779033965-p0qhf0ig864r933njpv2uo9g0r79gprn.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

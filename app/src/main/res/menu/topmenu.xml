@@ -9,7 +9,7 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/group"
-        android:title="Groups" />
+        android:title="New group" />
     <item
         android:id="@+id/invite"
         android:title="Invite" />

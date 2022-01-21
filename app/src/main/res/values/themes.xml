@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ChatsApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.ChatsApp" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/green</item>
         <item name="colorPrimaryVariant">@color/greenDark</item>
@@ -33,4 +33,9 @@
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorControlNormal">@color/white</item>
     </style>
+
+    <style name="Theme.ChatsApp.CallActivityTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <item name="android:statusBarColor" tools:targetApi="l">@color/green</item>
+    </style>
+
 </resources>

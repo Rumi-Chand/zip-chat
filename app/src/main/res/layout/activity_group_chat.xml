@@ -42,7 +42,7 @@
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_marginRight="12dp"
-                app:srcCompat="@drawable/ic_attachment"
+                android:src="@drawable/ic_attachment"
                 app:tint="#676767" />
 
             <ImageView
@@ -50,7 +50,7 @@
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_marginRight="12dp"
-                app:srcCompat="@drawable/ic_camera"
+                android:src="@drawable/ic_camera"
                 app:tint="#676767" />
 
         </LinearLayout>
@@ -64,6 +64,7 @@
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -72,10 +73,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:background="@drawable/circle_green"
-        android:padding="10dp"
+        android:padding="14dp"
+        android:src="@drawable/ic_send"
         app:layout_constraintBottom_toBottomOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/cardView"
-        app:srcCompat="@drawable/ic_send"
         app:tint="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -65,9 +65,10 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/textbox_outline"
                 android:ems="10"
-                android:hint="Type your phone number"
+                android:hint="Type your phone number with country code"
                 android:padding="10dp"
-                android:phoneNumber="true" />
+                android:phoneNumber="true"
+                android:textSize="17sp" />
 
             <Button
                 android:id="@+id/continueBtn"
